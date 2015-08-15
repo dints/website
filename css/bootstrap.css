@@ -96,11 +96,6 @@ img {
   max-width: 100%;
   border: 0;
 }
-li:before {
-    content: "• ";
-    color: red; /* or whatever color you prefer */
-    font-size: 20px;/* or whatever the bullet size you prefer */
-}
 svg:not(:root) {
   overflow: hidden;
 }
