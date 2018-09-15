@@ -96,11 +96,6 @@ img {
   max-width: 100%;
   border: 0;
 }
-li:before {
-    content: "• ";
-    color: red; /* or whatever color you prefer */
-    font-size: 20px;/* or whatever the bullet size you prefer */
-}
 svg:not(:root) {
   overflow: hidden;
 }
@@ -1602,18 +1597,21 @@ pre code {
 .container {
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 15px;
   margin-right: auto;
   margin-left: auto;
 }
 .logo {
   /* height: 100px; */
   margin-top: 20px;
+  margin-bottom:  20px;
 }
 .logo img {
   max-width: 100%;
 }
 .white {
   background: white;
+  padding: 15px 0;
 }
 @media (min-width: 768px) {
   .container {
