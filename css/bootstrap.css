@@ -6822,4 +6822,29 @@ button.close {
     display: none !important;
   }
 }
+
+/*Animation*/
+
+/*Animation*/
+
+/*Selection Colour*/
+::selection {
+  background: #ec7c86; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: #ec7c86; /* Gecko Browsers */
+  color: white;
+}
+/*Selection Colour*/
+
+/*Margins*/
+.mt140 {
+  margin-top: 140px;
+}
+.mb140 {
+  margin-bottom: 140px;
+}
+/*Margins*/
+
 /*# sourceMappingURL=bootstrap.css.map */
